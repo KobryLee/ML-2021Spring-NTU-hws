@@ -4,6 +4,7 @@
 ![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/attention-score.png)
 * attention means the relation between the input patches
 * after calculationg the attention-score, we will normalize them with softmax or relu .etc and **we need to calculate the relation between query1 and itself key1**
+
 ![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/attention-score-softmax.png)
 
 
