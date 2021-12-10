@@ -23,6 +23,10 @@
 
 ![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/multi-head-attention.png)![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/multi-head-b-transform.png)
 
+* there is a memory problem, because the calculate consumption is O(n^2), n is the length of input seq
+
+![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/memory-cost-and-truncated.png)
+
 
 ## relation between cnn and self-attetion
 ![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/attention-vs-cnn.png)
