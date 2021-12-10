@@ -1,4 +1,4 @@
-# self-attention, cnn, rnn, gnn, spatial transform layer and unsupervised learning
+# self-attention
 
 ## the structure of self-attention
 ![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/attention-score.png)
