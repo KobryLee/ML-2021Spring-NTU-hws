@@ -7,6 +7,17 @@
 
 ![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/attention-score-softmax.png)
 
+* then we can extract information according to the attention score and value
+
+![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/value-based-attention.png)
+
+* besides, position encoding will show the sequence of the input seq
+
+![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/position-encoding.png)
+
+* self-attention matrix form
+
+![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/attention-score-matrix.png)![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/qkv-matrix.png)![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture3/whole-matrix.png)
 
 
 
