@@ -61,7 +61,14 @@
 
 ### training method
 
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/12-training-method.png)
 
+* in the training stage, we will provide the ground truth token to the decoder and minimize the cross entropy betweent the output and the ground trurh
+
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/15-mismatch-train-inference.png)
+
+* because we offer the decode the ground truth in training, so there is a gap between train and inference.
+* to be specific, in the inference stage, if a middle token is predicted wrong, the following output tokens have a very large chance to get wrong ouput
 
 
 
