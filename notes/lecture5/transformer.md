@@ -69,6 +69,7 @@
 
 * because we offer the decode the ground truth in training, so there is a gap between train and inference.
 * to be specific, in the inference stage, if a middle token is predicted wrong, the following output tokens have a very large chance to get wrong ouput
+* some solution: *scheduled sampling*
 
 
 
