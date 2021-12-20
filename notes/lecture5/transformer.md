@@ -1,5 +1,9 @@
 # transformers
 
+## structure
+
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/5-decoder-structure.png)
+
 ## encoder
 
 ![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/1-encoder-overall-structure.png)
@@ -11,3 +15,19 @@
 * in every block, the input will first processed by a self-attention module with skip-connection to get the variable *a+b*
 * then it uses a lyaer norm for the output of the self-attention module, which work on the different dimensions of one feature. by contrast, batch norm calculate the average of the same dimension of different features.
 * then MLP will process the output of self-attention will fully-connected networks and use skip -connection tech, after this the output of MLP will also be applied to layer norm.
+
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/3-encoder-detail.png)
+
+* as for the detailed structure, the block in encoder has such a structure, consisting of self-attention(skip-connection), layer norm and MLP(skip-connection) layer norm
+
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/4-paper-about-norm.png)
+
+* some research about the layer norm
+
+## decoder
+
+### masked self-attention
+
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/6-masked-self-attention(generate-b-one-by-one).png)
+
+* s
