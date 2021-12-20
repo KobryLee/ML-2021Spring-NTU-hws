@@ -30,4 +30,39 @@
 
 ![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/6-masked-self-attention(generate-b-one-by-one).png)
 
-* s
+* in decoder, the output will be generated one-by-one, which mean the first output will only notice the first input and second output will notice the first and the second input
+
+### stucture
+
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/7-stop-decoder.png)
+
+* there is a question, we need to let decoder automatically stop, otherwise the decoder will generate output endlessly. So we add a stop token to be predicted.
+
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/8-non-auto-regressive.png)
+
+* except the one-by-one generating form, we also have a non-auto-regressive type decoder
+* specifically, NAT decoder need another predictor to determine the length of output, or set a very large number for the length of output and output a very long sequence and ignore the tokens after END 
+* NAT is faster and can control the length of output.
+
+
+### connection between encoder and decoder
+
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/9-connection.png)
+
+* we use cross attention to connect encoder and decoder, decoder provide query and encoder provide key and value
+
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/10-detailed-connection.png)
+![img](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture5/11-detailed-connection-2.png)
+
+* above two imgs show how the first two output of decoder generate
+** we need to notice that, decoder's output only act as query, do not calculate the key and value, which means its value will not be used.
+** the second output will only calculate the attention-score with the output of the encoder, because decoder will not generate query and value
+** *all in all, decoder will only generate query*
+
+### training method
+
+
+
+
+
+
