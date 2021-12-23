@@ -16,9 +16,9 @@
 * we train the discriminator to give real data from Pdata higher score and give generative data Pg lower score, by using log(D(y)) and log(1-D(y))
 * the goal is a estimation of the js-div of distribution, amazingly.
 * maxD V(G,D) is very related to Div(Pg,Pdata)
-** ![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/10-repalce-div.png)
+** ![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/10-replace-div.png)
 
-![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/9-effect-of-discriminator.png)
+![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/9-effect-of-discriminator.png)
 
 * this picture shows what discriminator does
 
