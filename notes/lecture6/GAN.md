@@ -14,7 +14,7 @@
 
 ![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/3-algorithm1.png)
 ![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/4-algorithm2.png)
-![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/5-algorithm4.png)
+![iamge](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/5-algorithm3.png)
 
 * step 1: fix generator G, updata discriminator D to assign high scores to real objects and low scores to the generated objects
 * step 2: fix discriminator D, update generator D to generate more real picture to "fool" discriminator
