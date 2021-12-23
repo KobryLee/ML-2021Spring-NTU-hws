@@ -22,5 +22,12 @@
 
 * this picture shows what discriminator does
 
+## divergence and the object function
+
+![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/11-paper.png)
+
+* this paper tell us the divergence and the corresponding object function, which is highly related to.
+
+## training method
 
 
