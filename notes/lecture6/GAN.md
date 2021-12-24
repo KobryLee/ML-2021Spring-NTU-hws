@@ -49,6 +49,5 @@
 
 * this paper tell us the divergence and the corresponding object function, which is highly related to.
 
-## training method
 
 
