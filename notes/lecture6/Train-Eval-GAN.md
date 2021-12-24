@@ -2,12 +2,12 @@
 
 # training method
 
-![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/tree/main/notes/statics/lecture6/12-dis-problem.png)
+![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/12-dis-problem.png)
 
 * for nature of data, the distribution is a low-dim mainfold in a high-dim space, which means natural distribution has very little overlaps
 * sampling can not fully show the distribution, even though we take many samples
 
-![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/tree/main/notes/statics/lecture6/13-js-not-suit.png)
+![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/13-js-not-suit.png)
 
 * in the picutre, the first two distribution have the same js divergence, but apparently the second one has better performance.
 * besides, intutively, if two distributions do not overlap, bunary classifier achieves 100% accuracy, because discriminator can easily discriminate two samples. so the accuracy means nothing
