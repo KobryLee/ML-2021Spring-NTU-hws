@@ -16,11 +16,11 @@
 
 * the distance to move distribution P to Q, there are many moving plans and W-distance is the smallest moving distance.
 
-![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/tree/main/notes/statics/lecture6/15-wd-vs-js.png)
+![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/15-wd-vs-js.png)
 
 * for the same situation mentioned above, w-distance can show the difference between the first two distributions, while js can not.
 
-![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/tree/main/notes/statics/lecture6/16-wgan.png)
+![image](https://github.com/KobryLee/ML-2021Spring-NTU-hws/blob/main/notes/statics/lecture6/16-wgan.png)
 
 * this object function is a projection of the wasserstein distance.
 * D need to be 1-lipschitz, which means D has to be smooth enough, otherwise, discriminator will force D(x) to infinity to be a good D. And then, the D will not converge no matter how many epochs of training.
